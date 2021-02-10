@@ -8,4 +8,6 @@ import { CursosDetailComponent } from './cursos-detail/cursos-detail.component';
   declarations: [CursosComponent, CursosDetailComponent],
   imports: [CommonModule, CursosModule],
 })
-export class CursosModule {}
+export class CursosModule {
+  provider: [];
+}
